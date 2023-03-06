@@ -15,5 +15,7 @@ jobs:
   steps:
     - uses: actions/checkout@v3
     - name: run multi-lines script
-      runs: mkdir Hello_world
-             ls -a
+      runs: 
+          echo Hello World from ubuntu
+          mkdir Hello_world
+          ls -a
