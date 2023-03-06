@@ -8,7 +8,7 @@ on:
     branshes: [ "main" ]
 
 
-workflows_dispatch:
+workflow_dispatch:
 
 jobs:
   Hello world:
@@ -20,4 +20,3 @@ jobs:
       - name: run a one-line script
         run: echo "Hello ya world"
 
-        
