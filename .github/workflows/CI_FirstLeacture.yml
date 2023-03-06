@@ -7,8 +7,7 @@ on:
   pull_request:
     branshes: [ "main" ]
 
-
- workflow_dispatch:
+workflow_dispatch:
 
 jobs:
   Hello world:
