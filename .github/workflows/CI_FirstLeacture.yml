@@ -20,6 +20,7 @@ jobs:
           echo Add other actions to build,
           ls -a
           mkdir git_traning
+          ls -a
           cd git_traning
           touch "test">>te.txt
           ls -a
