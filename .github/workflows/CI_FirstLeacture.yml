@@ -14,5 +14,7 @@ jobs:
   runs-on: ubuntu-latest
   steps:
     - uses: actions/checkout@v3
-    - name: run a one-line script
+    - name: run multi-lines script
+      runs: echo Hello, World from ubuntu  
+      runs: mkdir Hello_world
       run: ls -a
