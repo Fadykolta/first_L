@@ -22,5 +22,6 @@ jobs:
           mkdir git_traning
           ls -a
           cd git_traning
-          touch "test">>te.txt
+          touch "test1234156789">>te.txt
           ls -a
+          cat te.txt
