@@ -1,0 +1,20 @@
+name: Hello world Workflow
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branshes: [ "main" ]
+
+workflow_dispatch:
+
+jobs:
+  Hello:
+    runs-on: ubuntu: latest
+    
+    steps:
+      - uses action/checkout@v3
+      - name Run a one-line script
+        run: echo Hello, World!
+
+  
