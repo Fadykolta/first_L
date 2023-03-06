@@ -1,17 +1,24 @@
----
-name: Hello world basic
+name: Hello world  basic workflows
 on:
-  push:
-    branshes:
-      - main
-  pull_request:
-    branshes:
-      - main
-workflow_dispatch: null
+
+
+ push:
+   branches: [ "main" ]
+ pull_request:
+   branches: [ "main" ]
+
+
+ workflow_dispatch:
+
+
 jobs:
-  "Hello, world":
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - name: run a one-line script
-        run: echo "Hello ya world
+ Hello:
+   runs-on: ubuntu-latest
+
+
+   steps:
+     - uses: actions/checkout@v3
+
+
+     - name: Run a one-line script
+       run: echo Hello, world!
