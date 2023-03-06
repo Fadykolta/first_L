@@ -10,7 +10,7 @@ workflow_dispatch:
 
 jobs:
   Hello:
-    runs-on: ubuntu: latest
+    runs-on: ubuntu-latest
     
     steps:
       - uses action/checkout@v3
