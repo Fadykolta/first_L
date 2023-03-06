@@ -19,4 +19,6 @@ jobs:
         run: |
           echo Add other actions to build,
           mkdir git_traning
+          cd git_traning
+          touch "test >> te.txt"
           ls -a
