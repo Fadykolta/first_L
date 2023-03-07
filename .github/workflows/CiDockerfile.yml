@@ -1,5 +1,5 @@
 ---
-name: Heloo world workflow
+name: ForDocker
 on:
   push:
     branches:
