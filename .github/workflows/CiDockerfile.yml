@@ -21,3 +21,9 @@ jobs:
           ls -a
           cd git_traning
           touch "test1234156789">>te.txt
+
+  macos:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v3
+  
