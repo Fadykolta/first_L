@@ -7,7 +7,7 @@ on:
   pull_request:
     branches:
       - main
-      
+
   workflow_dispatch: null
 
 jobs:
@@ -20,5 +20,5 @@ jobs:
       - name: run a multi-lines script
         run:
           ls -a
-          touch "write on ubuntu">>t.txt
+          touch "test1234156789">>ttt.txt
           ls -a
