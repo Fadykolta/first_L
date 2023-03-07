@@ -23,5 +23,7 @@ jobs:
           ls -a
           cd git_traning
           touch "test1234156789">>te.txt
+          $date
           ls -a
           cat te.txt
+          time
