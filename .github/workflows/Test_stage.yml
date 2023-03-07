@@ -1,0 +1,26 @@
+---
+name: testing env
+on:
+  push:
+    branches:
+      - "[ main ]"
+      - "[ action-feature] "
+  pull_request:
+      - "[ main ]"
+      - "[ action-feature] "
+
+  workflow_dispatch: null
+
+jobs:
+  Build_ubuntu:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run a one-line script
+        run: echo Hello world ubuntu
+      - name: run a multi-lines script
+        run:
+          ls -a
+          touch "write on ubuntu">>t.txt
+          ls -a
+          
