@@ -1,0 +1,29 @@
+---
+name: ForDocker
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch: null
+jobs:
+  Hello_world:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run a multi-line script
+        run: |
+          echo Add other actions to build,
+          ls -a
+          mkdir git_traning
+          ls -a
+          cd git_traning
+          touch "test1234156789">>te.txt
+
+  macos:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v3
+  
