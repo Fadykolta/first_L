@@ -9,7 +9,6 @@ on:
       - main
 
   workflow_dispatch: null
-
 jobs:
   Build_ubuntu:
     runs-on: ubuntu-latest
@@ -18,7 +17,7 @@ jobs:
       - name: Run a one-line script
         run: echo Hello world ubuntu
 
-   Build_MacOS:
+  Build_MacOS:
     runs-on: macos-latest
     steps:
       - uses: actions/checkout@v3
