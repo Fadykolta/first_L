@@ -1,5 +1,5 @@
 ---
-name: Heloo world workflow
+name: Hello world workflow
 on:
   push:
     branches:
