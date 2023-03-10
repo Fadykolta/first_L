@@ -18,12 +18,4 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo Add other actions to build,
-          ls -a
-          mkdir git_traning
-          ls -a
-          cd git_traning
-          touch "test1234156789">>te.txt
-          $date
-          ls -a
-          cat te.txt
-          time
+          pwd
